@@ -46,4 +46,3 @@ if __name__ == '__main__':
         similarity = similarity.main()
         #把相似度结果写入ans.txt
         z.write('%.2f%%\n' % (similarity*100))
-
