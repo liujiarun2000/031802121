@@ -20,7 +20,7 @@ class minhashSimilarity(object):
 
     def main(self):
         # 去除停用词
-        jieba.analyse.set_stop_words('requirements.txt')
+        jieba.analyse.set_stop_words('stopwords.txt')
 
         # MinHash计算
         m1, m2 = MinHash(), MinHash()
